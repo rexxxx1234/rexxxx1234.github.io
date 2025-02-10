@@ -26,7 +26,7 @@ export const aboutMe: AboutMe = {
     "Rex is a PhD candidate in Computer Science at the University of Toronto, where he also received his BASc in Computer Engineering in 2020. He is passionate about applying machine learning and artificial intelligence to solve challenging problems in healthcare and biology.",
   email: "rex.ma@mail.utoronto.ca",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://github.com/rexxxx1234/my-research-website/blob/main/src/data/headshot.jpg?raw=true",
   googleScholarUrl: "https://scholar.google.com/citations?user=JeW_QPYAAAAJ&hl=en",
   githubUsername: "rexxxx1234",
   linkedinUsername: "rex-ma-20a455113",
