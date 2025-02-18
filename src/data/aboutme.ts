@@ -34,7 +34,7 @@ export const aboutMe: AboutMe = {
   githubUsername: "rexxxx1234",
   linkedinUsername: "rex-ma-20a455113",
   twitterUsername: "RexMa9",
-  cvUrl: "https://rexxxx1234.github.io/rexxxx1234.github.io/src/CV/Shihao_Ma_s_Resume.pdf",
+  cvUrl: "https://rexxxx1234.github.io/rex_resume/Shihao_Ma_s_Resume.pdf",
   institutionUrl: "https://www.utoronto.ca/",
   // altName: "",
   // secretDescription: "I like dogs.",
