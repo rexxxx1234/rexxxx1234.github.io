@@ -13,7 +13,7 @@ export const educationData: Education[] = [
     year: "2020—Present",
     institution: "University of Toronto",
     degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Bo Wang",
+    advisor: "Prof. Bo Wang; Supervisory committee: Prof. Bo Wang, Prof. Anna Goldenberg, Prof. Benjamin Haibe-Kains",
   },
   {
     year: "2015—2020",
