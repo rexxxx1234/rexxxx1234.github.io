@@ -42,11 +42,43 @@ export const publicationData: Publication[] = [
     // imageUrl: "/images/publication-image.jpg"
   },
   {
-    year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
-    paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    year: "2024",
+    conference: "American Heart Journal",
+    title: "Comparison of machine learning and conventional statistical modeling for predicting readmission following acute heart failure hospitalization",
+    authors: "Karem Abdul-Samad, Shihao Ma, David E Austin, Alice Chong, Chloe X Wang, Xuesong Wang, Peter C Austin, Heather J Ross, Bo Wang, Douglas S Lee",
+    paperUrl: "https://www.sciencedirect.com/science/article/abs/pii/S0002870324001832",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Developing accurate models for predicting the risk of 30-day readmission is a major healthcare interest.",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2021",
+    conference: "Journal of the American Geriatrics Society",
+    title: "Predictors of mortality among long‐term care residents with SARS‐CoV‐2 infection",
+    authors: "Douglas S Lee*, Shihao Ma*, Anna Chu, Chloe X Wang, Xuesong Wang, Peter C Austin, Finlay A McAlister, Sunil V Kalmady, Moira K Kapral, Padma Kaul, Dennis T Ko, Paula A Rochon, Michael J Schull, Barry B Rubin, Bo Wang, CORONA Collaboration",
+    paperUrl: "https://agsjournals.onlinelibrary.wiley.com/doi/abs/10.1111/jgs.17425",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "We studied residents living in LTC homes in Ontario, Canada and examined predictors of all-cause death within 30 days after a positive test for SARS-CoV-2.",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2021",
+    conference: "The Lancet Digital Health",
+    title: "Long-term mortality risk stratification of liver transplant recipients: real-time application of deep learning algorithms on longitudinal data",
+    authors: "Osvald Nitski, Amirhossein Azhie, Fakhar Ali Qazi-Arisar, Xueqi Wang, Shihao Ma, Leslie Lilly, Kymberly D Watt, Josh Levitsky, Sumeet K Asrani, Douglas S Lee, Barry B Rubin, Mamatha Bhat, Bo Wang",
+    paperUrl: "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00040-6/fulltext",
+    codeUrl: "https://github.com/bowang-lab/Transplant_Time_Series",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "We propose Deep Learning models designed for longitudinal data that reliably predicts an updated clinical outlook for individual patients.",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
   },
 ];
