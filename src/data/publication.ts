@@ -63,7 +63,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We developed ML algorithms to predict 7-day and 30-day mortality in patients with acute HF and compared these with an existing logistic regression model at the same timepoints.",
     imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/LTC.png?raw=true",
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/EHMRG.png?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -76,7 +76,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We used machine learning to identify resident and community characteristics predictive of SARS-Cov-2 infection.",
     imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/LTC.png?raw=true",
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/factor.png?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
