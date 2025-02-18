@@ -23,7 +23,21 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "IntegrAO (Integrate Any Omics) is an unsupervised platform designed to tackle the challenges of incomplete multi-omics data. Crucially, it can be seamlessly transformed into a prediction model after integration, enabling robust classification of new patient samples—even when only partial omics data is available.",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/IntegrAO.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2024",
+    conference: "Nature Communications",
+    title: "AGILE platform: a deep learning powered approach to accelerate LNP development for mRNA delivery",
+    authors: "Yue Xu*, Shihao Ma*, Haotian Cui*, Jingan Chen, Shufen Xu, Fanglin Gong, Alex Golubovic, Muye Zhou, Kevin Chang Wang, Andrew Varley, Rick Xing Ze Lu, Bo Wang, Bowen Li",
+    paperUrl: "https://www.nature.com/articles/s41467-024-50619-z",
+    codeUrl: "https://github.com/bowang-lab/AGILE",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "AGILE (AI-Guided Ionizable Lipid Engineering) platform streamlines the iterative development of ionizable lipids, crucial components for LNP-mediated mRNA delivery. ",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },

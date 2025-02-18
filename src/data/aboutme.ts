@@ -23,20 +23,10 @@ export const aboutMe: AboutMe = {
   institution: "University of Toronto",
   // Note that links work in the description
   description: `
-    <p>
-      I am currently a Computer Science PhD candidate at the 
-      <a href='https://www.utoronto.ca/'>University of Toronto</a>, supervised by 
-      Dr. <a href='https://x.com/BoWang87'>Bo Wang</a>. 
-    </p>
+    <p> I am currently a Computer Science PhD candidate at the <a href="https://www.utoronto.ca/">University of Toronto</a>, supervised by Dr. <a href="https://x.com/BoWang87">Bo Wang</a>. </p>
     <br>
-    <p>
-      My research focuses on multimodal integration, biology foundational models, 
-      and LLM in biomedicine. I employ advanced AI techniques to harness diverse 
-      biological data, aiming to develop models that drive precision medicine and 
-      foster innovative approaches to drug discovery.
-    </p>  
-
-  `,
+    <p> My research focuses on multimodal integration, biology foundational models, and LLM in biomedicine. I employ advanced AI techniques to harness diverse biological data, aiming to develop models that drive precision medicine and foster innovative approaches to drug discovery. </p>
+  `.trim(),
   email: "rex.ma@mail.utoronto.ca",
   imageUrl:
     "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/headshot.jpg?raw=true",

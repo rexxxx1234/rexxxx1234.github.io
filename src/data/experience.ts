@@ -10,21 +10,38 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
+    date: "Sept. 2020 - Present",
+    title: "Machine Learning Researcher",
+    company: "Vector Institute",
     description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+      "AI for biology, multimodal integration, biology foundational models.",
+    advisor: "Bo Wang",
+    companyUrl: "https://vectorinstitute.ai/",
   },
   {
     date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
+    title: "Research Scientist Intern",
+    company: "Fable Therapeutics",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+      "De novo antibody protein design, 3D geometric deep learning, protein structure generation.",
+    advisor: "Phlip Kim",
+    companyUrl: "https://www.fabletherapeutics.com/",
+  },
+  {
+    date: "Summer 2019",
+    title: "Machine Learning Intern",
+    company: "University Health Network",
+    description:
+      "Prognosis prediction of patients with heart failure, deep learning for single-cell RNA-seq data.",
+    advisor: "Bo Wang",
+    companyUrl: "https://www.uhn.ca/",
+  },
+  {
+    date: "May 2017 - May 2018",
+    title: "Software Engineering Intern",
+    company: "IBM",
+    description:
+      "Worked on DB2 Availability & Recovery Domain.",
+    companyUrl: "https://www.ibm.com/ca-en",
   },
 ];
