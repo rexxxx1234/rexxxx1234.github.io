@@ -50,7 +50,33 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Developing accurate models for predicting the risk of 30-day readmission is a major healthcare interest.",
     imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/readmission.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2022",
+    conference: "International Journal of Cardiology",
+    title: "Comparison of machine learning and the regression-based EHMRG model for predicting early mortality in acute heart failure",
+    authors: "David E Austin, Douglas S Lee, Chloe X Wang, Shihao Ma, Xuesong Wang, Joan Porter, Bo Wang",
+    paperUrl: "https://www.sciencedirect.com/science/article/pii/S0167527322011056",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "We developed ML algorithms to predict 7-day and 30-day mortality in patients with acute HF and compared these with an existing logistic regression model at the same timepoints.",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/LTC.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2022",
+    conference: "The Lancet Regional Health–Americas",
+    title: "Factors associated with SARS-CoV-2 test positivity in long-term care homes: a population-based cohort analysis using machine learning",
+    authors: "Douglas S Lee, Chloe X Wang, Finlay A McAlister, Shihao Ma, Anna Chu, Paula A Rochon, Padma Kaul, Peter C Austin, Xuesong Wang, Sunil V Kalmady, Jacob A Udell, Michael J Schull, Barry B Rubin, Bo Wang",
+    paperUrl: "https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(21)00142-3/fulltext",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "We used machine learning to identify resident and community characteristics predictive of SARS-Cov-2 infection.",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/LTC.png?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -63,7 +89,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We studied residents living in LTC homes in Ontario, Canada and examined predictors of all-cause death within 30 days after a positive test for SARS-CoV-2.",
     imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/LTC.png?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -77,7 +103,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We propose Deep Learning models designed for longitudinal data that reliably predicts an updated clinical outlook for individual patients.",
     imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/time_series.png?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
