@@ -15,6 +15,34 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "arXiv",
+    title: "Ctrl-DNA: Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL",
+    authors: "Xingyu Chen*, Shihao Ma*, Runsheng Lin, Jiecong Lin, Bo Wang",
+    paperUrl: "https://arxiv.org/abs/2505.20578",
+    codeUrl: "https://github.com/bowang-lab/Ctrl-DNA",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "We have many foundation models or language models for DNAs, but can we control  them? Introducing Ctrl-DNA - a reinforcement learning framework for controllable cis-regulatory sequence generation.",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/IntegrAO.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2025",
+    conference: "arXiv",
+    title: "BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model",
+    authors: "Adibvafa Fallahpour*, Andrew Magnuson*, Purav Gupta*, Shihao Ma, Jack Naimer, Arnav Shah, Haonan Duan, Omar Ibrahim, Hani Goodarzi, Chris J Maddison, Bo Wang",
+    paperUrl: "https://arxiv.org/abs/2505.23579",
+    codeUrl: "https://github.com/bowang-lab/BioReason",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "BioReason - the first model to successfully integrate DNA foundation models (eg, Evo 2) with LLMs (eg, Qwen3) for biological reasoning!",
+    imageUrl:
+      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/IntegrAO.png?raw=true",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2025",
     conference: "Nature Machine Intelligence",
     title: "Moving towards genome-wide data integration for patient stratification with Integrate Any Omics",
     authors: "Shihao Ma, Andy G.X. Zeng, Benjamin Haibe-Kains, Anna Goldenberg, John E. Dick, Bo Wang",
