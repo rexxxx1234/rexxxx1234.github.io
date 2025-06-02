@@ -23,7 +23,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We have many foundation models or language models for DNAs, but can we control  them? Introducing Ctrl-DNA - a reinforcement learning framework for controllable cis-regulatory sequence generation.",
     imageUrl:
-      "https://github.com/rexxxx1234/rexxxx1234.github.io/blob/main/src/img/Ctrl-DNA.jpeg?raw=true",
+      "https://github.com/rexxxx1234/rexxxx1234.github.io/blob/main/src/img/Ctrl-DNA2.jpeg?raw=true",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
