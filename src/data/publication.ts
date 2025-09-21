@@ -15,7 +15,7 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
-    conference: "arXiv",
+    conference: "NeurIPS Spotlight (top 3.2%)",
     title: "Ctrl-DNA: Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL",
     authors: "Xingyu Chen*, Shihao Ma*, Runsheng Lin, Jiecong Lin, Bo Wang",
     paperUrl: "https://arxiv.org/abs/2505.20578",
@@ -29,7 +29,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2025",
-    conference: "arXiv",
+    conference: "NeurIPS",
     title: "BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model",
     authors: "Adibvafa Fallahpour*, Andrew Magnuson*, Purav Gupta*, Shihao Ma, Jack Naimer, Arnav Shah, Haonan Duan, Omar Ibrahim, Hani Goodarzi, Chris J Maddison, Bo Wang",
     paperUrl: "https://arxiv.org/abs/2505.23579",
