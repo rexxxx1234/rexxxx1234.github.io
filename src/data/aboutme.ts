@@ -26,6 +26,8 @@ export const aboutMe: AboutMe = {
   <p>I am currently a Computer Science PhD candidate at the <a href="https://www.utoronto.ca/">University of Toronto</a>, supervised by Dr. <a href="https://x.com/BoWang87">Bo Wang</a>.</p>
   <br/>
   <p>My research focuses on multimodal integration, biology foundational models, and LLM in biomedicine. I employ advanced AI techniques to harness diverse biological data, aiming to develop models that drive precision medicine and foster innovative approaches to drug discovery.</p>
+  <br/>
+  <p>Update Setember 2025: I recently joined <a href="https://www.xaira.com/">Xaira Therapeutics</a> as a AI Scientist intern! </p>
   `.trim(),
   email: "rex.ma@mail.utoronto.ca",
   imageUrl:
