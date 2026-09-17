@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "University of Toronto",
   // Note that links work in the description
   description: `
-  <p>I successfully defended my PhD in Computer Science at the <a href="https://www.utoronto.ca/">University of Toronto</a> in August 2026, under the supervision of Dr. <a href="https://x.com/BoWang87">Bo Wang</a>.</p>
+  <p>I obtained my PhD in Computer Science at the <a href="https://www.utoronto.ca/">University of Toronto</a> in August 2026, under the supervision of Dr. <a href="https://x.com/BoWang87">Bo Wang</a>.</p>
   <br/>
   <p>My research focuses on multimodal integration, biology foundational models, and LLM in biomedicine. I employ advanced AI techniques to harness diverse biological data, aiming to develop models that drive precision medicine and foster innovative approaches to drug discovery.</p>
   <br/>

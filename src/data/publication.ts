@@ -19,22 +19,22 @@ export const publicationData: Publication[] = [
   {
     year: "2026",
     conference: "bioRxiv",
-    title: "BioReason-Pro: Advancing protein function prediction with multimodal biological reasoning",
-    authors: "Adibvafa Fallahpour, Arman Seyed-Ahmadi, Parsa Idehpour, Omar Ibrahim, Benedict MH Choi, Purav Gupta, Jack Naimer, Kevin Zhu, Abhinav Adduri, Arnav Shah, Shihao Ma, Talu Güloglu, Nuo Liu, Haotian Cui, Arihant Jain, Max de Castro, Amirfaham Fallahpour, Antonio Cembellin-Prieto, John S Stiles, Filip Nemčko, Alexander A Nevue, Hyungseok C Moon, Lucas Sosnick, Olivia Markham, Haonan Duan, Michelle YY Lee, Andrea FM Salvador, Chris J Maddison, Christoph A Thaiss, Chiara Ricci-Tam, Brian S Plosky, Dave P Burke, Patrick D Hsu, Hani Goodarzi, Bo Wang",
-    paperUrl: "https://www.biorxiv.org/content/10.64898/2026.03.19.712954",
-    // Figure 1: https://www.biorxiv.org/content/10.64898/2026.03.19.712954v2.full#F1
-    imageUrl: bioReasonProImage.src,
-    tldr: "BioReason-Pro integrates protein embeddings with biological context to predict protein function through structured reasoning. Supervised fine-tuning and reinforcement learning enable the model to generate GO term predictions and functional summaries.",
-  },
-  {
-    year: "2026",
-    conference: "bioRxiv",
     title: "X-Cell: Scaling causal perturbation prediction across diverse cellular contexts via diffusion language models",
     authors: "Chloe Wang, Mehran Karimzadeh, Neal G Ravindra, Lexi R Bounds, Nader Alerasool, Ann C Huang, Shihao Ma, Daniel R Gulbranson, Haotian Cui, Yongju Lee, Anusuya Arjavalingam, Elliot J MacKrell, Matthew S Wilken, Jieming Chen, Benjamin W Herken, Jesse A Weber, Massimo M Onesto, Barbara Gonzalez-Teran, Nicole F Leung, Sally Yu Shi, Byron J Smith, Sharon K Lam, Adam Barner, Philip Wright, Elizabeth M Rumsey, Soohong Kim, Rene V Sit, Adam J Litterman, Ci Chu, Bo Wang",
     paperUrl: "https://www.biorxiv.org/content/10.64898/2026.03.18.712807",
     // Figure 1: https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.full#F1
     imageUrl: xCellImage.src,
     tldr: "X-Cell is a diffusion language model that predicts how genetic perturbations reshape gene expression across diverse cellular contexts. Trained using 25.6 million perturbed single-cell transcriptomes from X-Atlas/Pisces, it incorporates multimodal biological priors to generalize perturbation responses.",
+  },
+  {
+    year: "2026",
+    conference: "bioRxiv",
+    title: "BioReason-Pro: Advancing protein function prediction with multimodal biological reasoning",
+    authors: "Adibvafa Fallahpour, Arman Seyed-Ahmadi, Parsa Idehpour, Omar Ibrahim, Benedict MH Choi, Purav Gupta, Jack Naimer, Kevin Zhu, Abhinav Adduri, Arnav Shah, Shihao Ma, Talu Güloglu, Nuo Liu, Haotian Cui, Arihant Jain, Max de Castro, Amirfaham Fallahpour, Antonio Cembellin-Prieto, John S Stiles, Filip Nemčko, Alexander A Nevue, Hyungseok C Moon, Lucas Sosnick, Olivia Markham, Haonan Duan, Michelle YY Lee, Andrea FM Salvador, Chris J Maddison, Christoph A Thaiss, Chiara Ricci-Tam, Brian S Plosky, Dave P Burke, Patrick D Hsu, Hani Goodarzi, Bo Wang",
+    paperUrl: "https://www.biorxiv.org/content/10.64898/2026.03.19.712954",
+    // Figure 1: https://www.biorxiv.org/content/10.64898/2026.03.19.712954v2.full#F1
+    imageUrl: bioReasonProImage.src,
+    tldr: "BioReason-Pro integrates protein embeddings with biological context to predict protein function through structured reasoning. Supervised fine-tuning and reinforcement learning enable the model to generate GO term predictions and functional summaries.",
   },
   {
     year: "2025",
