@@ -10,13 +10,13 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Sept. 2025 - Present",
+    date: "Sept. 2025 - Sept. 2026",
     title: "AI Scientist Intern",
     company: "Xaira Therapeutics",
     companyUrl: "https://www.xaira.com/",
   },
   {
-    date: "Sept. 2020 - Present",
+    date: "Sept. 2020 - Aug. 2026",
     title: "Machine Learning Researcher",
     company: "Vector Institute",
     description:

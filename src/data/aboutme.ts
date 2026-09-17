@@ -19,13 +19,15 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Shihao(Rex) Ma",
-  title: "Ph.D. Candidate",
+  title: "Ph.D. in Computer Science",
   institution: "University of Toronto",
   // Note that links work in the description
   description: `
-  <p>I am currently a Computer Science PhD candidate at the <a href="https://www.utoronto.ca/">University of Toronto</a>, supervised by Dr. <a href="https://x.com/BoWang87">Bo Wang</a>.</p>
+  <p>I successfully defended my PhD in Computer Science at the <a href="https://www.utoronto.ca/">University of Toronto</a> in August 2026, under the supervision of Dr. <a href="https://x.com/BoWang87">Bo Wang</a>.</p>
   <br/>
   <p>My research focuses on multimodal integration, biology foundational models, and LLM in biomedicine. I employ advanced AI techniques to harness diverse biological data, aiming to develop models that drive precision medicine and foster innovative approaches to drug discovery.</p>
+  <br/>
+  <p>Update August 2026: I successfully defended my PhD at the <a href="https://www.utoronto.ca/">University of Toronto</a>!</p>
   <br/>
   <p>Update Setember 2025: I recently joined <a href="https://www.xaira.com/">Xaira Therapeutics</a> as a AI Scientist intern! </p>
   `.trim(),
@@ -41,6 +43,4 @@ export const aboutMe: AboutMe = {
   // altName: "",
   // secretDescription: "I like dogs.",
 };
-
-
 
