@@ -13,6 +13,20 @@ import { portfolioData } from "@/data/portfolio";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
+  const publicationGroups = [
+    {
+      title: "Selected Publications",
+      publications: publicationData
+        .filter((publication) => publication.selectedOrder !== undefined)
+        .sort((a, b) => a.selectedOrder! - b.selectedOrder!),
+    },
+    {
+      title: "More Publications",
+      publications: publicationData.filter(
+        (publication) => publication.selectedOrder === undefined
+      ),
+    },
+  ];
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
@@ -76,24 +90,24 @@ export default function Home() {
                     )
                   );
                 case Section.Publication:
-                  return (
-                    publicationData.length > 0 && (
-                      <section key={sectionName}>
+                  return publicationGroups.map(({ title, publications }) =>
+                    publications.length > 0 ? (
+                      <section key={title}>
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
-                          Publications
+                          {title}
                         </h2>
                         <div className="space-y-12">
-                          {publicationData.map((publication, index) => (
-                            <div key={index}>
+                          {publications.map((publication, index) => (
+                            <div key={publication.title}>
                               <PublicationEntry publication={publication} />
-                              {index < publicationData.length - 1 && (
+                              {index < publications.length - 1 && (
                                 <div className="h-px bg-zinc-200 my-8" />
                               )}
                             </div>
                           ))}
                         </div>
                       </section>
-                    )
+                    ) : null
                   );
                 case Section.Experience:
                   return (

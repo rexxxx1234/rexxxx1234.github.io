@@ -12,6 +12,7 @@ export interface Publication {
   tldr?: string;
   imageUrl?: string;
   award?: string;
+  selectedOrder?: number;
 }
 
 export const publicationData: Publication[] = [
@@ -40,6 +41,7 @@ export const publicationData: Publication[] = [
     year: "2025",
     conference: "NeurIPS Spotlight (top 3.2%)",
     title: "Ctrl-DNA: Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL",
+    selectedOrder: 3,
     authors: "Xingyu Chen*, Shihao Ma*, Runsheng Lin, Jiecong Lin, Bo Wang",
     paperUrl: "https://arxiv.org/abs/2505.20578",
     codeUrl: "https://github.com/bowang-lab/Ctrl-DNA",
@@ -68,6 +70,7 @@ export const publicationData: Publication[] = [
     year: "2025",
     conference: "Nature Machine Intelligence",
     title: "Moving towards genome-wide data integration for patient stratification with Integrate Any Omics",
+    selectedOrder: 1,
     authors: "Shihao Ma, Andy G.X. Zeng, Benjamin Haibe-Kains, Anna Goldenberg, John E. Dick, Bo Wang",
     paperUrl: "https://www.nature.com/articles/s42256-024-00942-3",
     codeUrl: "https://github.com/bowang-lab/IntegrAO/tree/main",
@@ -82,6 +85,7 @@ export const publicationData: Publication[] = [
     year: "2024",
     conference: "Nature Communications",
     title: "AGILE platform: a deep learning powered approach to accelerate LNP development for mRNA delivery",
+    selectedOrder: 2,
     authors: "Yue Xu*, Shihao Ma*, Haotian Cui*, Jingan Chen, Shufen Xu, Fanglin Gong, Alex Golubovic, Muye Zhou, Kevin Chang Wang, Andrew Varley, Rick Xing Ze Lu, Bo Wang, Bowen Li",
     paperUrl: "https://www.nature.com/articles/s41467-024-50619-z",
     codeUrl: "https://github.com/bowang-lab/AGILE",
