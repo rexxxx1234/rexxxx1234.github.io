@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2094" height="1268" viewBox="0 0 2094 1268" role="img" aria-labelledby="title desc">
+  <title id="title">X-Scientist agent architecture</title>
+  <desc id="desc">A vector diagram showing a research question entering the X-Scientist harness, where a lead agent coordinates a dynamic task graph and worker agents. Workers access data and knowledge including internal data, public data and literature, as well as tools, compute and scientific models. The lead agent produces research outputs.</desc>
+  <defs>
+    <marker id="arrow-pink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#FA008A"/></marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#708BAD"/></marker>
+    <marker id="arrow-blue-start" markerWidth="10" markerHeight="10" refX="2" refY="5" orient="auto"><path d="M10 0 L0 5 L10 10 Z" fill="#708BAD"/></marker>
+    <style>
+      text { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; fill: #002F6C; }
+      .h1 { font-size: 46px; font-weight: 700; }
+      .top-sub { font-size: 34px; font-weight: 400; }
+      .eyebrow { font-size: 20px; font-weight: 700; letter-spacing: 2px; fill: #385D8C; }
+      .title { font-size: 31px; font-weight: 700; }
+      .body { font-size: 24px; font-weight: 400; }
+      .small { font-size: 21px; fill: #708BAD; }
+      .resource-title { font-size: 25px; font-weight: 700; }
+      .resource-sub { font-size: 18px; fill: #708BAD; }
+      .outer { fill: #F8FAFC; stroke: #E0E6ED; stroke-width: 2.5; }
+      .box { fill: #FFFFFF; stroke: #CCD5E2; stroke-width: 2.5; }
+      .lead { fill: #FFF3F9; stroke: #FA008A; stroke-width: 3; }
+      .worker { fill: #F2F6FB; stroke: #A8B8CD; stroke-width: 2.5; }
+      .pink-line { fill: none; stroke: #FA008A; stroke-width: 3; marker-end: url(#arrow-pink); }
+      .blue-line { fill: none; stroke: #708BAD; stroke-width: 2.5; marker-end: url(#arrow-blue); }
+      .blue-bidi { fill: none; stroke: #708BAD; stroke-width: 2.5; marker-start: url(#arrow-blue-start); marker-end: url(#arrow-blue); }
+    </style>
+  </defs>
+
+  <rect width="2094" height="1268" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <text x="140" y="95" class="h1">X-Scientist</text>
+  <text x="398" y="95" class="top-sub">Agent architecture</text>
+
+  <!-- Main harness -->
+  <rect x="526" y="140" width="1064" height="820" rx="28" class="outer"/>
+  <text x="559" y="178" class="eyebrow">X-SCIENTIST HARNESS</text>
+
+  <!-- Dynamic task graph -->
+  <rect x="692" y="216" width="732" height="126" rx="18" class="box"/>
+  <g stroke="#A8B8CD" stroke-width="3" fill="#FFFFFF">
+    <line x1="733" y1="279" x2="766" y2="255"/>
+    <line x1="766" y1="255" x2="799" y2="279"/>
+    <line x1="799" y1="279" x2="766" y2="302"/>
+    <line x1="766" y1="302" x2="733" y2="279"/>
+    <line x1="799" y1="279" x2="833" y2="279"/>
+    <circle cx="733" cy="279" r="8"/><circle cx="766" cy="255" r="8"/><circle cx="799" cy="279" r="8"/><circle cx="766" cy="302" r="8"/>
+  </g>
+  <circle cx="834" cy="279" r="9" fill="#FA008A"/>
+  <text x="870" y="267" class="title">Dynamic task graph</text>
+  <text x="870" y="307" class="body" fill="#708BAD">Plan, dependencies, working memory</text>
+
+  <!-- Bidirectional graph adaptation -->
+  <line x1="1058" y1="352" x2="1058" y2="417" class="blue-bidi"/>
+  <text x="1086" y="391" class="small">Adapt as evidence emerges</text>
+
+  <!-- Research question and input -->
+  <rect x="140" y="449" width="311" height="153" rx="18" class="box"/>
+  <text x="295.5" y="510" text-anchor="middle" class="title">Research question</text>
+  <text x="295.5" y="553" text-anchor="middle" class="body" fill="#708BAD">Objective and context</text>
+  <path d="M451 526 L682 526" class="pink-line"/>
+
+  <!-- Lead agent -->
+  <rect x="692" y="427" width="732" height="200" rx="19" class="lead"/>
+  <text x="1058" y="491" text-anchor="middle" class="title" font-size="38">Lead agent</text>
+  <text x="1058" y="541" text-anchor="middle" class="body" font-size="29">Plan · Delegate · Verify · Synthesize</text>
+  <text x="1058" y="583" text-anchor="middle" class="body" fill="#708BAD">Scientific coordination and evaluation</text>
+
+  <!-- Research outputs -->
+  <path d="M1424 526 L1677 526" class="pink-line"/>
+  <rect x="1687" y="449" width="290" height="153" rx="18" class="box"/>
+  <text x="1832" y="497" text-anchor="middle" class="title">Research outputs</text>
+  <text x="1832" y="539" text-anchor="middle" class="body" fill="#708BAD">Findings and</text>
+  <text x="1832" y="574" text-anchor="middle" class="body" fill="#708BAD">supporting evidence</text>
+
+  <!-- Lead/worker interaction -->
+  <path d="M842 627 L842 775" class="pink-line"/>
+  <text x="770" y="694" text-anchor="middle" class="small">Delegate</text>
+  <text x="770" y="726" text-anchor="middle" class="small">and guide</text>
+  <path d="M1254 785 L1254 637" class="blue-line"/>
+  <text x="1280" y="682" class="small">Findings and</text>
+  <text x="1280" y="714" class="small">execution</text>
+  <text x="1280" y="746" class="small">records</text>
+
+  <!-- Worker agents -->
+  <rect x="626" y="785" width="864" height="132" rx="18" class="worker"/>
+  <g fill="#FFFFFF" stroke="#A8B8CD" stroke-width="2.5">
+    <rect x="662" y="824" width="38" height="49" rx="8"/><rect x="709" y="824" width="38" height="49" rx="8"/><rect x="756" y="824" width="38" height="49" rx="8"/>
+  </g>
+  <circle cx="681" cy="841" r="5" fill="#708BAD"/><circle cx="728" cy="841" r="5" fill="#708BAD"/><circle cx="775" cy="841" r="5" fill="#708BAD"/>
+  <text x="825" y="840" class="title">Worker agents</text>
+  <text x="825" y="882" class="body" fill="#708BAD">Execute tasks and explore alternatives</text>
+
+  <!-- Access to resources -->
+  <line x1="1058" y1="927" x2="1058" y2="1058" class="blue-bidi"/>
+  <text x="1088" y="1019" class="small">Access as needed</text>
+
+  <!-- Resources -->
+  <rect x="527" y="1070" width="1063" height="121" rx="18" class="box"/>
+  <line x1="881" y1="1090" x2="881" y2="1170" stroke="#E0E6ED" stroke-width="2"/>
+  <line x1="1235" y1="1090" x2="1235" y2="1170" stroke="#E0E6ED" stroke-width="2"/>
+
+  <text x="704" y="1119" text-anchor="middle" class="resource-title">Data and knowledge</text>
+  <text x="704" y="1162" text-anchor="middle" class="resource-sub">Internal data · Public data · Literature</text>
+
+  <text x="1058" y="1119" text-anchor="middle" class="resource-title">Tools and compute</text>
+  <text x="1058" y="1162" text-anchor="middle" class="resource-sub">Analysis · Code execution</text>
+
+  <text x="1412" y="1119" text-anchor="middle" class="resource-title">Scientific models</text>
+  <text x="1412" y="1162" text-anchor="middle" class="resource-sub">X-Cell · X-Design</text>
+</svg>

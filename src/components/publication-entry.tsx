@@ -11,13 +11,21 @@ export function PublicationEntry({
     <div className="flex flex-col sm:flex-row gap-6">
       {publication.imageUrl && (
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
-          <Image
-            src={publication.imageUrl}
-            alt={publication.title}
-            width={160}
-            height={200}
-            className="rounded-lg transition-all duration-300"
-          />
+          <a
+            href={publication.imageUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`View full-size figure for ${publication.title}`}
+            className="block rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
+          >
+            <Image
+              src={publication.imageUrl}
+              alt={publication.imageAlt || publication.title}
+              width={160}
+              height={200}
+              className="h-auto rounded-lg transition-all duration-300"
+            />
+          </a>
         </div>
       )}
       <div className="flex flex-col flex-1">
@@ -35,15 +43,17 @@ export function PublicationEntry({
           )}
         </div>
         <h3 className="font-serif text-md mb-3">{publication.title}</h3>
-        <p className="text-sm text-zinc-600 mb-4">
-          {publication.authors.split(/(\bShihao Ma\b)/g).map((part, index) =>
-            part === "Shihao Ma" ? (
-              <strong key={index} className="font-bold">{part}</strong>
-            ) : (
-              part
-            )
-          )}
-        </p>
+        {publication.authors && (
+          <p className="text-sm text-zinc-600 mb-4">
+            {publication.authors.split(/(\bShihao Ma\b)/g).map((part, index) =>
+              part === "Shihao Ma" ? (
+                <strong key={index} className="font-bold">{part}</strong>
+              ) : (
+                part
+              )
+            )}
+          </p>
+        )}
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
             <a
@@ -54,7 +64,9 @@ export function PublicationEntry({
                 size={12}
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase">Paper</span>
+              <span className="tracking-wider uppercase">
+                {publication.paperLabel || "Paper"}
+              </span>
             </a>
           )}
           {publication.codeUrl && (

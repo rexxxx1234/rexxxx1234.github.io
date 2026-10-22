@@ -1,22 +1,37 @@
 import bioReasonProImage from "@/img/BioReason-Pro.png";
 import xCellImage from "@/img/X-Cell.png";
+import xScientistImage from "@/img/X-Scientist.svg";
 
 export interface Publication {
   year: string;
   conference: string;
   title: string;
-  authors: string;
+  authors?: string;
   paperUrl?: string;
+  paperLabel?: string;
   codeUrl?: string;
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
+  imageAlt?: string;
   award?: string;
   selectedOrder?: number;
 }
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+  {
+    year: "2026",
+    conference: "Xaira · Technical blog",
+    title: "X-Scientist: A Recursive Self-Improving Agentic AI Platform for Drug Discovery",
+    selectedOrder: 0,
+    paperUrl: "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform",
+    paperLabel: "Blog post",
+    // Architecture diagram from Figure 1 of the linked post.
+    imageUrl: xScientistImage.src,
+    imageAlt: "X-Scientist architecture: a lead agent plans and verifies research using a dynamic task graph, while worker agents access data, tools, compute, and scientific models.",
+    tldr: "X-Scientist combines language models, biological tools, and Xaira’s data and models to coordinate drug-discovery research through planning, execution, and verification. It improved performance on scientific benchmarks and nominated genetic perturbations that reversed TGF-β responses in liver cells, with a hit rate comparable to human curation and roughly 10× faster nominations. An initial autonomous-research pilot explores improving models and research workflows together; connecting the platform to automated experiments is a next step.",
+  },
   {
     year: "2026",
     conference: "bioRxiv",
