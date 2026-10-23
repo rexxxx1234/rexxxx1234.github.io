@@ -25,7 +25,7 @@ export const aboutMe: AboutMe = {
   description: `
   <p>I obtained my PhD in Computer Science at the <a href="https://www.utoronto.ca/">University of Toronto</a>, under the supervision of Dr. <a href="https://x.com/BoWang87">Bo Wang</a>.</p>
   <br/>
-  <p>My research focuses on multimodal integration, biology foundational models, and LLM in biomedicine. I employ advanced AI techniques to harness diverse biological data, aiming to develop models that drive precision medicine and foster innovative approaches to drug discovery.</p>
+  <p>My research focuses on multimodal integration, biological foundation models, and agentic AI for biomedicine and drug discovery. I develop AI models and agent harnesses that integrate diverse biological data, tools, and knowledge to advance precision medicine and accelerate drug discovery.</p>
   <br/>
   <p>Update August 2026: I successfully defended my PhD at the <a href="https://www.utoronto.ca/">University of Toronto</a>!</p>
   <br/>
