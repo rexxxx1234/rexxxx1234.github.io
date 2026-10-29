@@ -27,9 +27,9 @@ export const aboutMe: AboutMe = {
   <br/>
   <p>My research focuses on multimodal integration, biological foundation models, and agentic AI for biomedicine and drug discovery. I develop AI models and agent harnesses that integrate diverse biological data, tools, and knowledge to advance precision medicine and accelerate drug discovery.</p>
   <br/>
-  <p>Update August 2026: I successfully defended my PhD at the <a href="https://www.utoronto.ca/">University of Toronto</a>!</p>
-  <br/>
   <p>Update Setember 2025: I recently joined <a href="https://www.xaira.com/">Xaira Therapeutics</a> as a AI Scientist intern! </p>
+  <br/>
+  <p>Update August 2026: I successfully defended my PhD at the <a href="https://www.utoronto.ca/">University of Toronto</a>!</p>
   `.trim(),
   email: "rex.ma@mail.utoronto.ca",
   imageUrl:
