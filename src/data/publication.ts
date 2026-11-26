@@ -1,3 +1,12 @@
+import agileImage from "@/img/AGILE.png";
+import bioReasonImage from "@/img/BioReason.jpeg";
+import ctrlDnaImage from "@/img/Ctrl-DNA2.jpeg";
+import ehmrgImage from "@/img/EHMRG.png";
+import integrAOImage from "@/img/IntegrAO.png";
+import ltcImage from "@/img/LTC.png";
+import factorImage from "@/img/factor.png";
+import readmissionImage from "@/img/readmission.png";
+import timeSeriesImage from "@/img/time_series.png";
 import bioReasonProImage from "@/img/BioReason-Pro.png";
 import xCellImage from "@/img/X-Cell.png";
 import xScientistImage from "@/img/X-Scientist.svg";
@@ -62,8 +71,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/bowang-lab/Ctrl-DNA",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We have many foundation models or language models for DNAs, but can we control  them? Introducing Ctrl-DNA - a reinforcement learning framework for controllable cis-regulatory sequence generation.",
-    imageUrl:
-      "https://github.com/rexxxx1234/rexxxx1234.github.io/blob/main/src/img/Ctrl-DNA2.jpeg?raw=true",
+    imageUrl: ctrlDnaImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -76,8 +84,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/bowang-lab/BioReason",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "BioReason - the first model to successfully integrate DNA foundation models (eg, Evo 2) with LLMs (eg, Qwen3) for biological reasoning!",
-    imageUrl:
-      "https://github.com/rexxxx1234/rexxxx1234.github.io/blob/main/src/img/BioReason.jpeg?raw=true",
+    imageUrl: bioReasonImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -91,8 +98,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/bowang-lab/IntegrAO/tree/main",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "IntegrAO (Integrate Any Omics) is an unsupervised platform designed to tackle the challenges of incomplete multi-omics data. Crucially, it can be seamlessly transformed into a prediction model after integration, enabling robust classification of new patient samples—even when only partial omics data is available.",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/IntegrAO.png?raw=true",
+    imageUrl: integrAOImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -106,8 +112,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/bowang-lab/AGILE",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "AGILE (AI-Guided Ionizable Lipid Engineering) platform streamlines the iterative development of ionizable lipids, crucial components for LNP-mediated mRNA delivery. ",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/AGILE.png?raw=true",
+    imageUrl: agileImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -119,8 +124,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://www.sciencedirect.com/science/article/abs/pii/S0002870324001832",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Developing accurate models for predicting the risk of 30-day readmission is a major healthcare interest.",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/readmission.png?raw=true",
+    imageUrl: readmissionImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -132,8 +136,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://www.sciencedirect.com/science/article/pii/S0167527322011056",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We developed ML algorithms to predict 7-day and 30-day mortality in patients with acute HF and compared these with an existing logistic regression model at the same timepoints.",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/EHMRG.png?raw=true",
+    imageUrl: ehmrgImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -145,8 +148,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(21)00142-3/fulltext",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We used machine learning to identify resident and community characteristics predictive of SARS-Cov-2 infection.",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/factor.png?raw=true",
+    imageUrl: factorImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -158,8 +160,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://agsjournals.onlinelibrary.wiley.com/doi/abs/10.1111/jgs.17425",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We studied residents living in LTC homes in Ontario, Canada and examined predictors of all-cause death within 30 days after a positive test for SARS-CoV-2.",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/LTC.png?raw=true",
+    imageUrl: ltcImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
@@ -172,8 +173,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/bowang-lab/Transplant_Time_Series",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We propose Deep Learning models designed for longitudinal data that reliably predicts an updated clinical outlook for individual patients.",
-    imageUrl:
-      "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/time_series.png?raw=true",
+    imageUrl: timeSeriesImage.src,
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },

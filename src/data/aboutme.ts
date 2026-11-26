@@ -1,3 +1,5 @@
+import headshotImage from "@/img/headshot.jpg";
+
 export interface AboutMe {
   name: string;
   title: string;
@@ -32,8 +34,7 @@ export const aboutMe: AboutMe = {
   <p>Update August 2026: I successfully defended my PhD at the <a href="https://www.utoronto.ca/">University of Toronto</a>!</p>
   `.trim(),
   email: "rexmashi00@gmail.com",
-  imageUrl:
-    "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/headshot.jpg?raw=true",
+  imageUrl: headshotImage.src,
   googleScholarUrl: "https://scholar.google.com/citations?user=JeW_QPYAAAAJ&hl=en",
   githubUsername: "rexxxx1234",
   linkedinUsername: "rex-ma-20a455113",
