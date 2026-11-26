@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import { EducationEntry } from "@/components/education-entry";
 import { educationData } from "@/data/education";
 import { PublicationEntry } from "@/components/publication-entry";
@@ -38,6 +39,26 @@ export default function Home() {
             {/* Profile */}
             <div className="md:sticky top-12 space-y-8">
               <ProfileSection aboutMe={aboutMe} />
+              <a
+                href="https://mapmyvisitors.com/web/1c9p7"
+                className="group block w-full max-w-[250px] rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
+              >
+                <span className="mb-2 flex items-baseline justify-between gap-3">
+                  <span className="font-serif text-base text-zinc-800">Visitor map</span>
+                  <span className="inline-flex items-center gap-1 text-xs text-zinc-600 group-hover:underline">
+                    View statistics <ArrowUpRight size={12} aria-hidden="true" />
+                  </span>
+                </span>
+                {/* Request the live image directly so MapMyVisitors can record the visit. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://mapmyvisitors.com/map.png?d=UTEX4-nk3kNIF_5DFe7mfDGAR_YxmqweiTdn0K0crts&cl=ffffff&co=456879&ct=ffffff&w=250"
+                  alt="World map of visitor locations and pageviews for the displayed dates"
+                  width={250}
+                  height={145}
+                  className="block h-auto w-full rounded-md"
+                />
+              </a>
             </div>
           </div>
 
