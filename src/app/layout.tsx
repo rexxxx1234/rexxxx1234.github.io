@@ -45,7 +45,7 @@ export default function RootLayout({
       >
         <main className="">{children}</main>
         <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-[#FFFCF8]">
-          <div className="flex flex-row mx-auto max-w-7xl px-6 py-12 md:flex md:items-start md:justify-between ">
+          <div className="mx-auto flex max-w-7xl flex-col items-start gap-6 px-6 py-12 md:flex-row md:justify-between">
             <div className="mb-4 text-sm text-neutral-600 dark:text-neutral-400">
               <p>
                 © {new Date().getFullYear()} {aboutMe.name}.
@@ -56,6 +56,18 @@ export default function RootLayout({
                 </p>
               )}
             </div>
+            <figure className="text-sm text-neutral-600">
+              <figcaption className="mb-1">Visits by country since November 2026</figcaption>
+              <a href="https://info.flagcounter.com/vRf1" className="inline-block">
+                {/* The visitor's browser must request this image directly for geolocation. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://s05.flagcounter.com/count/vRf1/bg_FFFCF8/txt_525252/border_FFFCF8/columns_2/maxflags_8/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
+                  alt="View site statistics, including pageviews and visits by country"
+                  className="max-w-full"
+                />
+              </a>
+            </figure>
             <div className="mb-4">
               <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
                 Built with{" "}

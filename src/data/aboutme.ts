@@ -31,7 +31,7 @@ export const aboutMe: AboutMe = {
   <br/>
   <p>Update August 2026: I successfully defended my PhD at the <a href="https://www.utoronto.ca/">University of Toronto</a>!</p>
   `.trim(),
-  email: "rex.ma@mail.utoronto.ca",
+  email: "rexmashi00@gmail.com",
   imageUrl:
     "https://github.com/rexxxx1234/my-research-website/blob/main/src/img/headshot.jpg?raw=true",
   googleScholarUrl: "https://scholar.google.com/citations?user=JeW_QPYAAAAJ&hl=en",
